@@ -721,7 +721,7 @@ net.ipv4.tcp_max_orphans = 32768
 net.ipv4.ip_forward = 1" >> /etc/sysctl.conf
 
 # MENU
-wget -O ~/menu.zip "https://raw.githubusercontent.com/jaka1m/vpn/main/menu/menu.zip" >/dev/null 2>&1
+wget -O ~/menu.zip "https://raw.githubusercontent.com/anuy639/Xray/anuy/menu.zip" >/dev/null 2>&1
     mkdir /root/menu
     7z e -pxray   ~/menu.zip -o/root/menu/ >/dev/null 2>&1
     chmod +x /root/menu/*
